@@ -71,7 +71,17 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 
 .projects-grid{
   display:flex;
+  flex-wrap: wrap;
+
 }
+
+.projects-grid > div {
+  
+  margin: left;
+  padding: 20px;
+}
+
+
 
 .contact-body {
   margin: auto;
