@@ -10,7 +10,7 @@ function App() {
     <Layout>
         <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>}  scroll>
             <Navigation>
-                <Link to="/">About Me</Link>
+                <Link to="/react-portfolio">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contactme">Contact Me</Link>
@@ -18,7 +18,7 @@ function App() {
         </Header>
         <Drawer title="Prapul Reddy">
             <Navigation>
-                <Link to="/">About Me</Link>
+                <Link to="/react-potfolio">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contactme">Contact Me</Link>
